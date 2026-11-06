@@ -18,7 +18,7 @@
 
 <!-- PITCH-BUILD PLACEHOLDER: see index.html — every image on this site is
      stock, not the real property. Replace once real photography exists.
-     The reservations@orisonhotel.com address is a placeholder domain
+     The reservations@citycruzhotel.com address is a placeholder domain
      pending client confirmation (Frontend PRD Section 21, open question 3).
      There is no backend behind this page's enquiry form yet either — see
      the comment above the <form> below for the honest, working fallback
@@ -47,7 +47,7 @@
     "postalCode": "460001",
     "addressCountry": "NG"
   },
-  "telephone": "08108724556",
+  "telephone": "08166665771",
   "starRating": { "@type": "Rating", "ratingValue": "5" }
 }
 </script>
@@ -851,7 +851,7 @@ section{ position:relative; }
     </nav>
 
     <div class="header-cta">
-      <a href="tel:08108724556" class="header-phone"><i class="fa-solid fa-phone" aria-hidden="true"></i>08108724556</a>
+      <a href="tel:08166665771" class="header-phone"><i class="fa-solid fa-phone" aria-hidden="true"></i>08166665771</a>
       <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="mainNav">
         <i class="fa-solid fa-bars" aria-hidden="true"></i>
       </button>
@@ -898,7 +898,7 @@ section{ position:relative; }
           pretend a server-side handler is here, the form's real, working
           fallback is client-side: on valid submit, JS opens the visitor's
           own email client with a pre-filled message to
-          reservations@orisonhotel.com. Replace with a real POST
+          reservations@citycruzhotel.com. Replace with a real POST
           endpoint once a backend/email service is wired up.
         -->
         <form id="contactForm" novalidate>
@@ -944,14 +944,14 @@ section{ position:relative; }
       <div class="info-col reveal">
         <span class="kicker">General Inquiries</span>
         <h3>Hotel Info Center</h3>
-        <a href="tel:08108724556"><i class="fa-solid fa-phone" aria-hidden="true"></i> 08108724556</a>
-        <a href="mailto:reservations@orisonhotel.com"><i class="fa-solid fa-envelope" aria-hidden="true"></i> reservations@orisonhotel.com</a>
+        <a href="tel:08166665771"><i class="fa-solid fa-phone" aria-hidden="true"></i> 08166665771</a>
+        <a href="mailto:reservations@citycruzhotel.com"><i class="fa-solid fa-envelope" aria-hidden="true"></i> reservations@citycruzhotel.com</a>
         <a href="https://www.google.com/maps/search/?api=1&query=5.469687,7.010343" target="_blank" rel="noopener"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Get Directions</a>
       </div>
       <div class="info-col reveal">
         <span class="kicker">Reservation Details</span>
         <h3>Direct Reservations</h3>
-        <p class="info-address">Works Layout Rd, Owerri 460108, Imo</p>
+        <p class="info-address">5005, Action layout, beside Reach FM, New Owerri, Owerri 460271, Imo</p>
         <a href="index.html#booking" class="btn btn-outline">Check Availability</a>
       </div>
     </div>
@@ -1052,9 +1052,9 @@ section{ position:relative; }
       <div>
         <h4>Contact</h4>
         <ul class="footer-contact">
-          <li><i class="fa-solid fa-phone" aria-hidden="true"></i><a href="tel:08108724556">08108724556</a></li>
-          <li><i class="fa-solid fa-envelope" aria-hidden="true"></i><a href="mailto:reservations@orisonhotel.com">reservations@orisonhotel.com</a></li>
-          <li><i class="fa-solid fa-location-dot" aria-hidden="true"></i><span>Works Layout Rd, Owerri 460108, Imo</span></li>
+          <li><i class="fa-solid fa-phone" aria-hidden="true"></i><a href="tel:08166665771">08166665771</a></li>
+          <li><i class="fa-solid fa-envelope" aria-hidden="true"></i><a href="mailto:reservations@citycruzhotel.com">reservations@citycruzhotel.com</a></li>
+          <li><i class="fa-solid fa-location-dot" aria-hidden="true"></i><span>5005, Action layout, beside Reach FM, New Owerri, Owerri 460271, Imo</span></li>
         </ul>
       </div>
     </div>
@@ -1083,14 +1083,14 @@ section{ position:relative; }
     <button class="modal-close" id="closePrivacy" aria-label="Close">&times;</button>
     <h2 id="privacyTitle">Privacy Policy</h2>
     <p>CITY CRUZ HOTEL values your personal data and is committed to protecting your privacy. This is a placeholder for the full Privacy Notice; the complete legal text is defined in the site's Privacy Policy page.</p>
-    <p>Address: Works Layout Rd, Owerri 460108, Imo &middot; Phone: 08108724556</p>
+    <p>Address: 5005, Action layout, beside Reach FM, New Owerri, Owerri 460271, Imo &middot; Phone: 08166665771</p>
   </div>
 </div>
 
 <!-- Mobile-only sticky Call + Book bar — see index.html for the CSS rationale. -->
 <div class="mobile-cta-bar">
   <div class="inner">
-    <a href="tel:08108724556" class="call-btn"><i class="fa-solid fa-phone" aria-hidden="true"></i> Call</a>
+    <a href="tel:08166665771" class="call-btn"><i class="fa-solid fa-phone" aria-hidden="true"></i> Call</a>
     <a href="index.html#booking" class="book-btn"><i class="fa-solid fa-bed" aria-hidden="true"></i> Book Now</a>
   </div>
 </div>
@@ -1390,9 +1390,9 @@ if (contactForm) {
     const body = encodeURIComponent(
       `Name: ${cfName.value.trim()}\nEmail: ${cfEmail.value.trim()}\n\n${cfMessage.value.trim()}`
     );
-    window.location.href = `mailto:reservations@orisonhotel.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:reservations@citycruzhotel.com?subject=${subject}&body=${body}`;
 
-    formStatus.textContent = 'Opening your email app to send this message to reservations@orisonhotel.com…';
+    formStatus.textContent = 'Opening your email app to send this message to reservations@citycruzhotel.com…';
     formStatus.classList.add('is-success');
   });
 }
